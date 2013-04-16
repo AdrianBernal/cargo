@@ -54,9 +54,9 @@ class AppBaseController extends Controller
 	protected function JSONPCallback()
 	{
 		// TODO: uncomment to allow JSONP
-		// return RequestUtil::Get('callback','');
+		return RequestUtil::Get('callback','');
 
-		return '';
+		//return '';
 	}
 
 	/**
